@@ -1,0 +1,31 @@
+{
+	"geode": "5.11.2",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "opengl.recent-search",
+	"name": "Recent Search",
+	"version": "v1.0.0",
+	"developer": "opengl",
+	"description": "Adds a search box to the Recent tab that looks through several pages for levels whose name contains your text.",
+	"settings": {
+		"max-pages": {
+			"type": "int",
+			"name": "Max pages",
+			"description": "How many pages of the Recent tab are checked per search (10 levels each). Higher values take longer and send more requests to the servers.",
+			"default": 20,
+			"min": 1,
+			"max": 100,
+			"control": {
+				"arrows": true,
+				"arrow-step": 5,
+				"slider": true,
+				"slider-step": 1,
+				"input": true
+			}
+		}
+	}
+}
